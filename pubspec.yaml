@@ -1,0 +1,66 @@
+name: flash_chat
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0<3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  animated_text_kit: ^3.1.0
+  firebase_core: ^0.5.3
+  firebase_auth: ^0.18.4+1
+  cloud_firestore: ^0.14.4
+  modal_progress_hud: ^0.1.3
+  http:
+  flutter_socket_io: ^0.6.0
+  image_picker: ^0.6.7+17
+  firebase_storage: ^5.2.0
+  localstorage: ^3.0.6
+  cloudinary_public: ^0.6.2
+  audioplayers: ^0.17.0
+  pull_to_refresh: ^1.6.3
+  clipboard: ^0.1.2+8
+  emoji_picker: ^0.1.0
+  flutter_audio_recorder: ^0.5.5
+  flutter_windowmanager: ^0.0.2
+  provider: ^4.3.2+4
+  scrollable_positioned_list: ^0.1.9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'dev_assets/logo.png'
+  adaptive_icon_background: '#191919'
+  adaptive_icon_foreground: 'dev_assets/logo.png'
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/
+  - assets/
+
+  fonts:
+    - family: Courgette
+      fonts:
+      - asset: assets/fonts/Courgette-Regular.ttf
+        weight: 700
+    - family: Teko
+      fonts:
+      - asset: assets/fonts/Teko-Regular.ttf
+    - family: Play-Regular
+      fonts:
+      - asset: assets/fonts/Play-Regular.ttf
+    - family: MontserratAlternates
+      fonts:
+      - asset: assets/fonts/MontserratAlternates-SemiBoldItalic.ttf
